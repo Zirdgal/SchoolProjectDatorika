@@ -18,3 +18,6 @@ a {
 i {
 	font-size: 5vh;
 }
+figure {
+	float: right;
+}
