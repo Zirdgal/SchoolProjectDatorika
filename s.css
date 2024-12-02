@@ -18,6 +18,11 @@ a {
 i {
 	font-size: 5vh;
 }
-img {
+figure {
 	float: right;
+}
+img {
+	width: 30vw;
+	height: auto;
+	border-radius: 10px;
 }
