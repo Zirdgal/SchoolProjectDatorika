@@ -15,6 +15,9 @@ header {
 a {
 	color: #12db00;
 }
+a:hover {
+	color: lightgreen;
+}
 i {
 	font-size: 5vh;
 }
