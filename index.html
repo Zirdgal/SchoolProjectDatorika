@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width-device-width, initial-scale=1.0">
-	
-	<script src="https://kit.fontawesome.com/fe50138296.js" crossorigin="anonymous"></script>
-	
-	<link rel="stylesheet" href="./s.css">
-	
-	
 	<head>
-		<title>Vēsture</title>
+		<title>Pasaule pēc 1.P.k.</title>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		
+		<script src="https://kit.fontawesome.com/fe50138296.js" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="./s.css">
+		<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 	</head>
 	<body>
-		<img src="./bg.jpg" class="backgroundImg">
 		<header>
-			<a class="topbar-a" href="#"><i class="fa-solid fa-house"></i></a>
-			<a class="topbar-a" href="#"></a>
-			<a class="topbar-a" href="#"><i class="fa-solid fa-link"></i></a>
+			<a class="topbar-a" href="index.html"><i class="fa-solid fa-house"></i></a>
+			<a class="topbar-a" href="list.html"><i class="fa-solid fa-list"></i></a>
+			<a class="topbar-a" href="credit.html"><i class="fa-solid fa-link"></i></a>
 		</header>
-		<section id="headerSection">
-			<h1>Vēsture:</h1>
-		</section>
+
+		<div class="pageContainer">
+			<section id="leftSection">
+				<h1>Pasaule pēc 1. Pasaules kara:</h1>
+				<h2 id="countryName">Uzspiežat uz kādu pogu</h2>
+				<h3 id="countryFlavourText">-></h3>
+				<p><a class="altA" id="countryLink">-></a></p>
+			</section>
+			<section id="rightSection">
+				<img src="./img/1919.png" id="mainImg">
+				<a href="https://github.com/Zirdgal/OverTheCee">Karte no: https://github.com/Zirdgal/OverTheCee</a>
+				<div id="dots">
+					<button class="dotsButton" id="germanyButton"></button>
+					<button class="dotsButton" id="russiaButton"></button>
+					<button class="dotsButton" id="italyButton"></button>
+					<button class="dotsButton" id="austriahungaryButton"></button>
+					<button class="dotsButton" id="balticsButton"></button>
+				</div>
+			</section>
+		</div>
+		
+		<script src="app.js"></script> 
+
 	</body>
 </html>
