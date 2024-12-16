@@ -116,6 +116,8 @@ p {
 
 	height: 5em;
 	width: 5em;	
+
+	filter: opacity(0.85);
 }
 
 #centerSection {
